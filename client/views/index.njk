@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+  </head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./bundle.js" charset="utf-8"></script>
+  <body>
+
+    {%include "header.njk" %}
+
+
+    {% for carro in carros %}
+      <li>Id del carro: {{carro.id}}, modelo: {{ carro.modelo }}</li>
+    {% endfor %}
+
+    <h4>Se vendieron</h4>
+    {% for producto, dato in compra %}
+      <h5>{{ dato }} {{ producto }} </h5>
+    {% endfor %}
+
+    <a class="etiqueta"></a>
+    
+  </body>
+</html>

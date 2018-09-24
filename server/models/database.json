@@ -1,0 +1,13 @@
+{
+  "title":"inicio",
+  "carros":[
+      {"modelo":"ford", "id":"1"},
+      {"modelo":"ford fiesta", "id":"2"},
+      {"modelo":"ferrari", "id":"3"}
+  ],
+  "compra":{
+    "calleta": "4",
+    "caramelo": "3",
+    "chupeta": "7"
+  }
+}
