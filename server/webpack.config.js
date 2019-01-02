@@ -1,4 +1,3 @@
-
   module.exports = {
     mode: 'none',
     entry: './client/model/js/dom.js',

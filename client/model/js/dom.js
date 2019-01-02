@@ -1,10 +1,7 @@
 import $ from 'jquery'
 
-var dom = function(){
-
-    $(function() {
-      $(".etiqueta").html('Lista:')
-    })
-
+export default ()=>{
+  $(function() {
+    $('.etiqueta').html('listo')
+  })
 }
-export default dom()
